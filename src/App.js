@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
+import PhotoList from './components/PhotoList';
 
 import './App.css';
 
@@ -24,8 +25,9 @@ function App() {
       ></Nav>
       <main>
         <div>
-          <Gallery> </Gallery>
-          <About> </About>
+          <Gallery currentCategory={currentCategory}></Gallery>
+          <PhotoList></PhotoList>
+          <About></About>
         </div>
       </main>
     </div>
