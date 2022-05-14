@@ -12,7 +12,7 @@ function Gallery(props) {
       <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
       <p>{currentCategory.description}</p>
       <div>
-        <img src={photo} alt="Commercial Example" classname="img-thumbnail mx-1"/>
+        <img src={photo} alt="Commercial Example" className="img-thumbnail mx-1"/>
       </div>
     </section>
   );
