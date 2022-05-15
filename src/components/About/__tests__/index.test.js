@@ -17,4 +17,3 @@ describe('About component renders', () => {
   });
 })
 
-
