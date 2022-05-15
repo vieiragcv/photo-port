@@ -3,6 +3,7 @@ import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
 import PhotoList from './components/PhotoList';
+import ContactForm from './components/Contact';
 
 import './App.css';
 
@@ -28,6 +29,7 @@ function App() {
           <Gallery currentCategory={currentCategory}></Gallery>
           <PhotoList></PhotoList>
           <About></About>
+          <ContactForm></ContactForm>
         </div>
       </main>
     </div>
