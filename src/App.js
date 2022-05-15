@@ -3,9 +3,6 @@ import About from './components/About'
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
 import ContactForm from './components/Contact';
-import Modal from './components/Modal';
-
-
 import './App.css';
 
 function App() {
